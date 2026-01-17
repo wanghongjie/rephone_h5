@@ -14,13 +14,7 @@
   <body>
     <div class="safe-area-top"></div>
     <header class="topbar topbar--sticky">
-      <div class="topbar__left">
-        <button class="icon-btn" id="backBtn" type="button" aria-label="返回">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </button>
-      </div>
+      <div class="topbar__left"></div>
       <div class="topbar__title">服务条款</div>
       <div class="topbar__right">
         <button class="icon-btn" id="copyPageLink" type="button" aria-label="复制页面链接">
@@ -187,10 +181,7 @@
         tocEl: document.getElementById("toc"),
         docEl: document.getElementById("doc"),
         backTopEl: document.getElementById("backTop"),
-        copyPageLinkEl: document.getElementById("copyPageLink"),
-        backBtnEl: document.getElementById("backBtn"),
-        fallbackBackUrl: "./privacy.html",
-      });
+        copyPageLinkEl: document.getElementById("copyPageLink"),      });
     </script>
   </body>
 </html>
